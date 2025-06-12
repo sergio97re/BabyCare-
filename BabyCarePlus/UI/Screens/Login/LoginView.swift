@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @State private var viewModel = LoginViewModel()
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var isPasswordVisible: Bool = false
@@ -90,6 +91,7 @@ struct LoginView: View {
                     
                     Button {
                         self.isLoading = true
+                        viewModel.signIn()
                         
                         //esperamos 1 segundo para asegurarnos de mostrar animacion al hacer login vaya bien o no
 //                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {

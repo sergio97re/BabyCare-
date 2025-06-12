@@ -19,5 +19,3 @@ final class RootViewModel {
         service.userSession
     }
 }
-
-//PRUEBA SOURCETREE
