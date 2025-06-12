@@ -1,0 +1,72 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "¿Olvidaste tu contraseña?" : {
+
+    },
+    "Acceder" : {
+
+    },
+    "Añade tu email" : {
+
+    },
+    "Bienvenido a BabyCarePlus, %@" : {
+
+    },
+    "Completar registro" : {
+
+    },
+    "Contraseña" : {
+
+    },
+    "Crea tu contraseña" : {
+
+    },
+    "Crea tu usuario" : {
+
+    },
+    "Email" : {
+
+    },
+    "Entrando..." : {
+
+    },
+    "Este email lo usarás para iniciar sesión" : {
+
+    },
+    "Haz click en el botón para completar el registro" : {
+
+    },
+    "Hello, world, I am a Baby!" : {
+
+    },
+    "Hello, World!" : {
+
+    },
+    "Introduce tu contraseña" : {
+
+    },
+    "Introduce tu email" : {
+
+    },
+    "Introduce tu usuario" : {
+
+    },
+    "Me quiero registrar" : {
+
+    },
+    "Podrás cambiarlo más adelante" : {
+
+    },
+    "Siguiente" : {
+
+    },
+    "Tu contraseña debe tener al menos 8 letras y un número." : {
+
+    },
+    "Volver" : {
+
+    }
+  },
+  "version" : "1.0"
+}

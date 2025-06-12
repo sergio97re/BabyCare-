@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5543D08C2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0682DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf */; };
+		5543D08D2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0692DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Light.ttf */; };
+		5543D08E2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D06A2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Regular.ttf */; };
+		5543D08F2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D06B2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt SemiBold.ttf */; };
+		5543D0902DEF538400892D26 /* nunito-sans-latin-400-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D06C2DEF538400892D26 /* nunito-sans-latin-400-normal.ttf */; };
+		5543D0912DEF538400892D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5543D06E2DEF538400892D26 /* Assets.xcassets */; };
+		5543D0922DEF538400892D26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0882DEF538400892D26 /* GoogleService-Info.plist */; };
+		5543D0932DEF538400892D26 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0892DEF538400892D26 /* Info.plist */; };
+		5543D0942DEF538400892D26 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5543D08A2DEF538400892D26 /* Localizable.xcstrings */; };
+		5543D0952DEF538400892D26 /* BabyCarePlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0632DEF538400892D26 /* BabyCarePlusApp.swift */; };
+		5543D0962DEF538400892D26 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0652DEF538400892D26 /* StatusModel.swift */; };
+		5543D0972DEF538400892D26 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0702DEF538400892D26 /* AuthService.swift */; };
+		5543D0982DEF538400892D26 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0722DEF538400892D26 /* Keychain.swift */; };
+		5543D0992DEF538400892D26 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0742DEF538400892D26 /* TextFieldModifier.swift */; };
+		5543D09A2DEF538400892D26 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0762DEF538400892D26 /* LoginView.swift */; };
+		5543D09B2DEF538400892D26 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0772DEF538400892D26 /* LoginViewModel.swift */; };
+		5543D09C2DEF538400892D26 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D07A2DEF538400892D26 /* AddEmailView.swift */; };
+		5543D09D2DEF538400892D26 /* CompleteRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D07B2DEF538400892D26 /* CompleteRegisterView.swift */; };
+		5543D09E2DEF538400892D26 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D07C2DEF538400892D26 /* CreatePasswordView.swift */; };
+		5543D09F2DEF538400892D26 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D07D2DEF538400892D26 /* CreateUsernameView.swift */; };
+		5543D0A02DEF538400892D26 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D07E2DEF538400892D26 /* RegisterViewModel.swift */; };
+		5543D0A12DEF538400892D26 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0802DEF538400892D26 /* MainTabView.swift */; };
+		5543D0A22DEF538400892D26 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0812DEF538400892D26 /* RootView.swift */; };
+		5543D0A32DEF538400892D26 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0822DEF538400892D26 /* RootViewModel.swift */; };
+		5543D0A42DEF538400892D26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0872DEF538400892D26 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		553572392DC4EC4C002C9133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553572232DC4EC4A002C9133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5535722A2DC4EC4A002C9133;
+			remoteInfo = BabyCarePlus;
+		};
+		553572432DC4EC4C002C9133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553572232DC4EC4A002C9133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5535722A2DC4EC4A002C9133;
+			remoteInfo = BabyCarePlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5535722B2DC4EC4A002C9133 /* BabyCarePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCarePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		553572382DC4EC4C002C9133 /* BabyCarePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyCarePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		553572422DC4EC4C002C9133 /* BabyCarePlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyCarePlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5543D0632DEF538400892D26 /* BabyCarePlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCarePlusApp.swift; sourceTree = "<group>"; };
+		5543D0652DEF538400892D26 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
+		5543D0682DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Sans 12pt ExtraLight 12pt Bold.ttf"; sourceTree = "<group>"; };
+		5543D0692DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Sans 12pt ExtraLight 12pt Light.ttf"; sourceTree = "<group>"; };
+		5543D06A2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Sans 12pt ExtraLight 12pt Regular.ttf"; sourceTree = "<group>"; };
+		5543D06B2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Sans 12pt ExtraLight 12pt SemiBold.ttf"; sourceTree = "<group>"; };
+		5543D06C2DEF538400892D26 /* nunito-sans-latin-400-normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nunito-sans-latin-400-normal.ttf"; sourceTree = "<group>"; };
+		5543D06E2DEF538400892D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5543D0702DEF538400892D26 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5543D0722DEF538400892D26 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		5543D0742DEF538400892D26 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		5543D0762DEF538400892D26 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5543D0772DEF538400892D26 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5543D07A2DEF538400892D26 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		5543D07B2DEF538400892D26 /* CompleteRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRegisterView.swift; sourceTree = "<group>"; };
+		5543D07C2DEF538400892D26 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		5543D07D2DEF538400892D26 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		5543D07E2DEF538400892D26 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		5543D0802DEF538400892D26 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		5543D0812DEF538400892D26 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5543D0822DEF538400892D26 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		5543D0872DEF538400892D26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5543D0882DEF538400892D26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5543D0892DEF538400892D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5543D08A2DEF538400892D26 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5535723B2DC4EC4C002C9133 /* BabyCarePlusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyCarePlusTests;
+			sourceTree = "<group>";
+		};
+		553572452DC4EC4C002C9133 /* BabyCarePlusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyCarePlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553572282DC4EC4A002C9133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553572352DC4EC4C002C9133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5535723F2DC4EC4C002C9133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		553572222DC4EC4A002C9133 = {
+			isa = PBXGroup;
+			children = (
+				5543D08B2DEF538400892D26 /* BabyCarePlus */,
+				5535723B2DC4EC4C002C9133 /* BabyCarePlusTests */,
+				553572452DC4EC4C002C9133 /* BabyCarePlusUITests */,
+				5535722C2DC4EC4A002C9133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5535722C2DC4EC4A002C9133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5535722B2DC4EC4A002C9133 /* BabyCarePlus.app */,
+				553572382DC4EC4C002C9133 /* BabyCarePlusTests.xctest */,
+				553572422DC4EC4C002C9133 /* BabyCarePlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5543D0642DEF538400892D26 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0632DEF538400892D26 /* BabyCarePlusApp.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5543D0662DEF538400892D26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0652DEF538400892D26 /* StatusModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5543D0672DEF538400892D26 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0662DEF538400892D26 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5543D06D2DEF538400892D26 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0682DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf */,
+				5543D0692DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Light.ttf */,
+				5543D06A2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Regular.ttf */,
+				5543D06B2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt SemiBold.ttf */,
+				5543D06C2DEF538400892D26 /* nunito-sans-latin-400-normal.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5543D06F2DEF538400892D26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5543D06D2DEF538400892D26 /* Fonts */,
+				5543D06E2DEF538400892D26 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5543D0712DEF538400892D26 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0702DEF538400892D26 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5543D0732DEF538400892D26 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0722DEF538400892D26 /* Keychain.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5543D0752DEF538400892D26 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0742DEF538400892D26 /* TextFieldModifier.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5543D0782DEF538400892D26 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0762DEF538400892D26 /* LoginView.swift */,
+				5543D0772DEF538400892D26 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5543D0792DEF538400892D26 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5543D07F2DEF538400892D26 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				5543D07A2DEF538400892D26 /* AddEmailView.swift */,
+				5543D07B2DEF538400892D26 /* CompleteRegisterView.swift */,
+				5543D07C2DEF538400892D26 /* CreatePasswordView.swift */,
+				5543D07D2DEF538400892D26 /* CreateUsernameView.swift */,
+				5543D07E2DEF538400892D26 /* RegisterViewModel.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		5543D0832DEF538400892D26 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0802DEF538400892D26 /* MainTabView.swift */,
+				5543D0812DEF538400892D26 /* RootView.swift */,
+				5543D0822DEF538400892D26 /* RootViewModel.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5543D0842DEF538400892D26 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0782DEF538400892D26 /* Login */,
+				5543D0792DEF538400892D26 /* Profile */,
+				5543D07F2DEF538400892D26 /* Register */,
+				5543D0832DEF538400892D26 /* Root */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5543D0852DEF538400892D26 /* ToolsView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToolsView;
+			sourceTree = "<group>";
+		};
+		5543D0862DEF538400892D26 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0752DEF538400892D26 /* Components */,
+				5543D0842DEF538400892D26 /* Screens */,
+				5543D0852DEF538400892D26 /* ToolsView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5543D08B2DEF538400892D26 /* BabyCarePlus */ = {
+			isa = PBXGroup;
+			children = (
+				5543D0642DEF538400892D26 /* Common */,
+				5543D0672DEF538400892D26 /* Domain */,
+				5543D06F2DEF538400892D26 /* Resources */,
+				5543D0712DEF538400892D26 /* Services */,
+				5543D0732DEF538400892D26 /* Tools */,
+				5543D0862DEF538400892D26 /* UI */,
+				5543D0872DEF538400892D26 /* ContentView.swift */,
+				5543D0882DEF538400892D26 /* GoogleService-Info.plist */,
+				5543D0892DEF538400892D26 /* Info.plist */,
+				5543D08A2DEF538400892D26 /* Localizable.xcstrings */,
+			);
+			path = BabyCarePlus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5535722A2DC4EC4A002C9133 /* BabyCarePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5535724C2DC4EC4C002C9133 /* Build configuration list for PBXNativeTarget "BabyCarePlus" */;
+			buildPhases = (
+				553572272DC4EC4A002C9133 /* Sources */,
+				553572282DC4EC4A002C9133 /* Frameworks */,
+				553572292DC4EC4A002C9133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyCarePlus;
+			packageProductDependencies = (
+			);
+			productName = BabyCarePlus;
+			productReference = 5535722B2DC4EC4A002C9133 /* BabyCarePlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		553572372DC4EC4C002C9133 /* BabyCarePlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5535724F2DC4EC4C002C9133 /* Build configuration list for PBXNativeTarget "BabyCarePlusTests" */;
+			buildPhases = (
+				553572342DC4EC4C002C9133 /* Sources */,
+				553572352DC4EC4C002C9133 /* Frameworks */,
+				553572362DC4EC4C002C9133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5535723A2DC4EC4C002C9133 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5535723B2DC4EC4C002C9133 /* BabyCarePlusTests */,
+			);
+			name = BabyCarePlusTests;
+			packageProductDependencies = (
+			);
+			productName = BabyCarePlusTests;
+			productReference = 553572382DC4EC4C002C9133 /* BabyCarePlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		553572412DC4EC4C002C9133 /* BabyCarePlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553572522DC4EC4C002C9133 /* Build configuration list for PBXNativeTarget "BabyCarePlusUITests" */;
+			buildPhases = (
+				5535723E2DC4EC4C002C9133 /* Sources */,
+				5535723F2DC4EC4C002C9133 /* Frameworks */,
+				553572402DC4EC4C002C9133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553572442DC4EC4C002C9133 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				553572452DC4EC4C002C9133 /* BabyCarePlusUITests */,
+			);
+			name = BabyCarePlusUITests;
+			packageProductDependencies = (
+			);
+			productName = BabyCarePlusUITests;
+			productReference = 553572422DC4EC4C002C9133 /* BabyCarePlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		553572232DC4EC4A002C9133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					5535722A2DC4EC4A002C9133 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					553572372DC4EC4C002C9133 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 5535722A2DC4EC4A002C9133;
+					};
+					553572412DC4EC4C002C9133 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 5535722A2DC4EC4A002C9133;
+					};
+				};
+			};
+			buildConfigurationList = 553572262DC4EC4A002C9133 /* Build configuration list for PBXProject "BabyCarePlus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 553572222DC4EC4A002C9133;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5535722C2DC4EC4A002C9133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5535722A2DC4EC4A002C9133 /* BabyCarePlus */,
+				553572372DC4EC4C002C9133 /* BabyCarePlusTests */,
+				553572412DC4EC4C002C9133 /* BabyCarePlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553572292DC4EC4A002C9133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5543D08C2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf in Resources */,
+				5543D08D2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Light.ttf in Resources */,
+				5543D08E2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Regular.ttf in Resources */,
+				5543D08F2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt SemiBold.ttf in Resources */,
+				5543D0902DEF538400892D26 /* nunito-sans-latin-400-normal.ttf in Resources */,
+				5543D0912DEF538400892D26 /* Assets.xcassets in Resources */,
+				5543D0922DEF538400892D26 /* GoogleService-Info.plist in Resources */,
+				5543D0932DEF538400892D26 /* Info.plist in Resources */,
+				5543D0942DEF538400892D26 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553572362DC4EC4C002C9133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553572402DC4EC4C002C9133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553572272DC4EC4A002C9133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5543D0952DEF538400892D26 /* BabyCarePlusApp.swift in Sources */,
+				5543D0962DEF538400892D26 /* StatusModel.swift in Sources */,
+				5543D0972DEF538400892D26 /* AuthService.swift in Sources */,
+				5543D0982DEF538400892D26 /* Keychain.swift in Sources */,
+				5543D0992DEF538400892D26 /* TextFieldModifier.swift in Sources */,
+				5543D09A2DEF538400892D26 /* LoginView.swift in Sources */,
+				5543D09B2DEF538400892D26 /* LoginViewModel.swift in Sources */,
+				5543D09C2DEF538400892D26 /* AddEmailView.swift in Sources */,
+				5543D09D2DEF538400892D26 /* CompleteRegisterView.swift in Sources */,
+				5543D09E2DEF538400892D26 /* CreatePasswordView.swift in Sources */,
+				5543D09F2DEF538400892D26 /* CreateUsernameView.swift in Sources */,
+				5543D0A02DEF538400892D26 /* RegisterViewModel.swift in Sources */,
+				5543D0A12DEF538400892D26 /* MainTabView.swift in Sources */,
+				5543D0A22DEF538400892D26 /* RootView.swift in Sources */,
+				5543D0A32DEF538400892D26 /* RootViewModel.swift in Sources */,
+				5543D0A42DEF538400892D26 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553572342DC4EC4C002C9133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5535723E2DC4EC4C002C9133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5535723A2DC4EC4C002C9133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5535722A2DC4EC4A002C9133 /* BabyCarePlus */;
+			targetProxy = 553572392DC4EC4C002C9133 /* PBXContainerItemProxy */;
+		};
+		553572442DC4EC4C002C9133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5535722A2DC4EC4A002C9133 /* BabyCarePlus */;
+			targetProxy = 553572432DC4EC4C002C9133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5535724A2DC4EC4C002C9133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5535724B2DC4EC4C002C9133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5535724D2DC4EC4C002C9133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.elevatiapp.BabyCarePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5535724E2DC4EC4C002C9133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.elevatiapp.BabyCarePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		553572502DC4EC4C002C9133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.elevatiapp.BabyCarePlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyCarePlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyCarePlus";
+			};
+			name = Debug;
+		};
+		553572512DC4EC4C002C9133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.elevatiapp.BabyCarePlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyCarePlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyCarePlus";
+			};
+			name = Release;
+		};
+		553572532DC4EC4C002C9133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.elevatiapp.BabyCarePlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyCarePlus;
+			};
+			name = Debug;
+		};
+		553572542DC4EC4C002C9133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DUZ4WW5B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.elevatiapp.BabyCarePlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyCarePlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553572262DC4EC4A002C9133 /* Build configuration list for PBXProject "BabyCarePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5535724A2DC4EC4C002C9133 /* Debug */,
+				5535724B2DC4EC4C002C9133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5535724C2DC4EC4C002C9133 /* Build configuration list for PBXNativeTarget "BabyCarePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5535724D2DC4EC4C002C9133 /* Debug */,
+				5535724E2DC4EC4C002C9133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5535724F2DC4EC4C002C9133 /* Build configuration list for PBXNativeTarget "BabyCarePlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553572502DC4EC4C002C9133 /* Debug */,
+				553572512DC4EC4C002C9133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553572522DC4EC4C002C9133 /* Build configuration list for PBXNativeTarget "BabyCarePlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553572532DC4EC4C002C9133 /* Debug */,
+				553572542DC4EC4C002C9133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 553572232DC4EC4A002C9133 /* Project object */;
+}
