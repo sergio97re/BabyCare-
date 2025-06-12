@@ -14,7 +14,6 @@
 		5543D0902DEF538400892D26 /* nunito-sans-latin-400-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D06C2DEF538400892D26 /* nunito-sans-latin-400-normal.ttf */; };
 		5543D0912DEF538400892D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5543D06E2DEF538400892D26 /* Assets.xcassets */; };
 		5543D0922DEF538400892D26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0882DEF538400892D26 /* GoogleService-Info.plist */; };
-		5543D0932DEF538400892D26 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0892DEF538400892D26 /* Info.plist */; };
 		5543D0942DEF538400892D26 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5543D08A2DEF538400892D26 /* Localizable.xcstrings */; };
 		5543D0952DEF538400892D26 /* BabyCarePlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0632DEF538400892D26 /* BabyCarePlusApp.swift */; };
 		5543D0962DEF538400892D26 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0652DEF538400892D26 /* StatusModel.swift */; };
@@ -32,6 +31,10 @@
 		5543D0A22DEF538400892D26 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0812DEF538400892D26 /* RootView.swift */; };
 		5543D0A32DEF538400892D26 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0822DEF538400892D26 /* RootViewModel.swift */; };
 		5543D0A42DEF538400892D26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543D0872DEF538400892D26 /* ContentView.swift */; };
+		55DD75CE2DFB314300FB8B26 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 55DD75CD2DFB314300FB8B26 /* FirebaseAuth */; };
+		55DD75D02DFB314300FB8B26 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 55DD75CF2DFB314300FB8B26 /* FirebaseFirestore */; };
+		55DD75D22DFB314300FB8B26 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 55DD75D12DFB314300FB8B26 /* FirebaseStorage */; };
+		55DD75D52DFB330D00FB8B26 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 55DD75D42DFB330D00FB8B26 /* KeychainSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DD75CE2DFB314300FB8B26 /* FirebaseAuth in Frameworks */,
+				55DD75D02DFB314300FB8B26 /* FirebaseFirestore in Frameworks */,
+				55DD75D52DFB330D00FB8B26 /* KeychainSwift in Frameworks */,
+				55DD75D22DFB314300FB8B26 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +316,10 @@
 			);
 			name = BabyCarePlus;
 			packageProductDependencies = (
+				55DD75CD2DFB314300FB8B26 /* FirebaseAuth */,
+				55DD75CF2DFB314300FB8B26 /* FirebaseFirestore */,
+				55DD75D12DFB314300FB8B26 /* FirebaseStorage */,
+				55DD75D42DFB330D00FB8B26 /* KeychainSwift */,
 			);
 			productName = BabyCarePlus;
 			productReference = 5535722B2DC4EC4A002C9133 /* BabyCarePlus.app */;
@@ -392,6 +403,10 @@
 			);
 			mainGroup = 553572222DC4EC4A002C9133;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				55DD75CC2DFB314300FB8B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				55DD75D32DFB330D00FB8B26 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5535722C2DC4EC4A002C9133 /* Products */;
 			projectDirPath = "";
@@ -416,7 +431,6 @@
 				5543D0902DEF538400892D26 /* nunito-sans-latin-400-normal.ttf in Resources */,
 				5543D0912DEF538400892D26 /* Assets.xcassets in Resources */,
 				5543D0922DEF538400892D26 /* GoogleService-Info.plist in Resources */,
-				5543D0932DEF538400892D26 /* Info.plist in Resources */,
 				5543D0942DEF538400892D26 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -780,6 +794,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55DD75CC2DFB314300FB8B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
+		55DD75D32DFB330D00FB8B26 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55DD75CD2DFB314300FB8B26 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55DD75CC2DFB314300FB8B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		55DD75CF2DFB314300FB8B26 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55DD75CC2DFB314300FB8B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		55DD75D12DFB314300FB8B26 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55DD75CC2DFB314300FB8B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		55DD75D42DFB330D00FB8B26 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55DD75D32DFB330D00FB8B26 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 553572232DC4EC4A002C9133 /* Project object */;
 }

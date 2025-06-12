@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+@Observable
+class LoginViewModel {
+    var email: String = ""
+    var password: String = ""
+    
+    func signIn() async throws {
+        AuthService.shared.login(email: email, password: password)
+    }
+}
