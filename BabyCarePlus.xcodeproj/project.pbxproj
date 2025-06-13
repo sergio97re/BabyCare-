@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55435E452DFB4B8F007B3944 /* UserParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55435E442DFB4B8F007B3944 /* UserParent.swift */; };
 		5543D08C2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0682DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf */; };
 		5543D08D2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D0692DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Light.ttf */; };
 		5543D08E2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D06A2DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Regular.ttf */; };
@@ -58,6 +59,7 @@
 		5535722B2DC4EC4A002C9133 /* BabyCarePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCarePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		553572382DC4EC4C002C9133 /* BabyCarePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyCarePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		553572422DC4EC4C002C9133 /* BabyCarePlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyCarePlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55435E442DFB4B8F007B3944 /* UserParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserParent.swift; sourceTree = "<group>"; };
 		5543D0632DEF538400892D26 /* BabyCarePlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCarePlusApp.swift; sourceTree = "<group>"; };
 		5543D0652DEF538400892D26 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
 		5543D0682DEF538400892D26 /* Nunito Sans 12pt ExtraLight 12pt Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Sans 12pt ExtraLight 12pt Bold.ttf"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				5543D0652DEF538400892D26 /* StatusModel.swift */,
+				55435E442DFB4B8F007B3944 /* UserParent.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				5543D09F2DEF538400892D26 /* CreateUsernameView.swift in Sources */,
 				5543D0A02DEF538400892D26 /* RegisterViewModel.swift in Sources */,
 				5543D0A12DEF538400892D26 /* MainTabView.swift in Sources */,
+				55435E452DFB4B8F007B3944 /* UserParent.swift in Sources */,
 				5543D0A22DEF538400892D26 /* RootView.swift in Sources */,
 				5543D0A32DEF538400892D26 /* RootViewModel.swift in Sources */,
 				5543D0A42DEF538400892D26 /* ContentView.swift in Sources */,
