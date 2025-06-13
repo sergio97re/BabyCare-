@@ -12,7 +12,6 @@ import Firebase
 import Combine
 
 @Observable
-@MainActor
 final class RootViewModel {
     var service = AuthService.shared
     var userSession: FirebaseAuth.User? {

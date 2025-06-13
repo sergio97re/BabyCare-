@@ -10,13 +10,11 @@ import SwiftUI
 struct LoginView: View {
     
     @State private var viewModel = LoginViewModel()
-    @State private var email: String = ""
-    @State private var password: String = ""
     @State private var isPasswordVisible: Bool = false
     @State private var isLoading: Bool = false
     
     var isButtonEnabled: Bool {
-        !email.isEmpty && !password.isEmpty
+        !viewModel.email.isEmpty && !viewModel.password.isEmpty
     }
     
     var body: some View {
@@ -34,7 +32,7 @@ struct LoginView: View {
                             .font(.custom("Nunito Sans 12pt ExtraLight 12pt Regular", size: 18, relativeTo: .title3))
                             .foregroundStyle(.black.opacity(0.6))
                         
-                        TextField("Introduce tu usuario", text: $email)
+                        TextField("Introduce tu usuario", text: $viewModel.email)
                             .textInputAutocapitalization(.never)
                             .textContentType(.username)
                             .submitLabel(.next)
@@ -48,14 +46,14 @@ struct LoginView: View {
                         
                         ZStack(alignment: .trailing) {
                             ZStack {
-                                TextField("Introduce tu contraseña", text: $password)
+                                TextField("Introduce tu contraseña", text: $viewModel.password)
                                     .textInputAutocapitalization(.never)
                                     .opacity(isPasswordVisible ? 1 : 0)
                                     .disabled(!isPasswordVisible)
                                     .autocorrectionDisabled(true)
                                     .textContentType(.password)
                                 
-                                SecureField("Introduce tu contraseña", text: $password)
+                                SecureField("Introduce tu contraseña", text: $viewModel.password)
                                     .opacity(isPasswordVisible ? 0 : 1)
                                     .disabled(isPasswordVisible)
                                     .submitLabel(.go)
@@ -91,7 +89,9 @@ struct LoginView: View {
                     
                     Button {
                         self.isLoading = true
-                        viewModel.signIn()
+                        Task {
+                            try await viewModel.signIn()
+                        }
                         
                         //esperamos 1 segundo para asegurarnos de mostrar animacion al hacer login vaya bien o no
 //                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
